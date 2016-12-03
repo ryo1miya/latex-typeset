@@ -4,7 +4,7 @@ Utilities for latex typesetting on Emacs
 This package provides three functions, `latex-typeset-and-preview`, `latex-typeset-and-preview-region`, and `latex-preview-pdf`. 
 
 They are available in any major-mode for LaTeX.  
-This package assumes the process of making pdf as follows :
+This package assumes the process of making pdf (using dvipdfmx) as follows :
 
     .tex -> .dvi -> .pdf
 
