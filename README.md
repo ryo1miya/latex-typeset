@@ -1,5 +1,5 @@
 # latex-typeset
-utilities for latex typesetting on Emacs
+Utilities for latex typesetting on Emacs
 
 This package provides three functions, `latex-typeset-and-preview`, `latex-typeset-and-preview-region`, and `latex-preview-pdf`. 
 
