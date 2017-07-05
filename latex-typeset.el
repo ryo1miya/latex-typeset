@@ -1,6 +1,7 @@
 ;;; latex-typeset.el -- LaTeX typeset utilities
 
 ;;     Copyright (C) 2016 MIYAZAKI Ryoichi
+;;     Contact: http://lambda-domain.com/ryo1blog/mail-form/
 
 ;;     This program is free software: you can redistribute it and/or modify
 ;;     it under the terms of the GNU General Public License as published by
@@ -29,9 +30,9 @@
 ;; (add-hook 'yatex-mode-hook
 ;;           (lambda ()
 ;;             (require 'latex-typeset)
-;;             (setf *latex-program* "uplatex"               ;; default is "platex"
-;;                   *latex-pdf-program* "open"              ;; default is "evince"
-;;                   *latex-rm-ext* '(".dvi" ".log" ".aux")) ;; default is '(".dvi")
+;;             (setf *latex-program* "uplatex"               ;; the default is "platex"
+;;                   *latex-pdf-program* "open"              ;; the default is "evince"
+;;                   *latex-rm-ext* '(".dvi" ".log" ".aux")) ;; the default is '(".dvi")
 ;;             (local-set-key (kbd "C-c C-c") 'latex-typeset-and-preview)
 ;;             (local-set-key (kbd "C-c C-r") 'latex-typeset-and-preview-region)
 ;;             (local-set-key (kbd "C-c C-p") 'latex-preview-pdf)))
