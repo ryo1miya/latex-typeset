@@ -45,7 +45,6 @@
 (defvar *latex-rm-ext* '(".dvi"))
 
 (defvar *latex-src* nil)
-(make-variable-buffer-local '*latex-src**)
 (defvar *latex-buf* "*LaTeX TypeSetting*")
 
 (defun latex-make-filename (ext)
